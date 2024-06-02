@@ -1,0 +1,30 @@
+{
+  "name": "dropdown-menu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MetalSnow/Dropdown-menu.git"
+  },
+  "author": "Metal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MetalSnow/Dropdown-menu/issues"
+  },
+  "homepage": "https://github.com/MetalSnow/Dropdown-menu#readme",
+  "devDependencies": {
+    "css-loader": "^7.1.2",
+    "html-webpack-plugin": "^5.6.0",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
