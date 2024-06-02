@@ -1,6 +1,6 @@
-export { showDropdown };
+export { dropdownToggle };
 
-const showDropdown = (container) => {
+const dropdownToggle = (container) => {
   const containerDisplay = container.style.display;
 
   if (containerDisplay === 'flex') {

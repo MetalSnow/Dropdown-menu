@@ -1,6 +1,6 @@
 import './style.css';
 import Icon from './icons/drop-down-icon.png';
-import { showDropdown } from './modules/dropdown.js';
+import { dropdownToggle } from './modules/dropdown.js';
 
 const dropdownBtn = document.querySelector('#drop-down-btn');
 const dropdownDiv = document.querySelector('.drop-down-content');
@@ -12,5 +12,5 @@ myIcon.src = Icon;
 dropdownBtn.appendChild(myIcon);
 
 dropdownBtn.addEventListener('click', () => {
-  showDropdown(dropdownDiv);
+  dropdownToggle(dropdownDiv);
 });

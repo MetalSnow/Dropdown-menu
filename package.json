@@ -25,6 +25,6 @@
     "webpack-cli": "^5.1.4"
   },
   "dependencies": {
-    "lodash": "^4.17.21"
+    "@metalsnow/dropdown-toggle-package": "^1.0.0"
   }
 }
