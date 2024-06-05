@@ -22,29 +22,34 @@
       <h3>Image-carousel</h3>
       <div class="slides">
         <div class="slides-controller">
-          <button id="previous">◀️</button>
-          <div class="picture-frame">
-            <div class="gaming one">
-              <img
-                src="<%=require('./icons/gaming-1.jpg')%>"
-                alt="1"
-                data-id="1"
-              />
+          <div class="main-pic">
+            <button id="previous">◀️</button>
+            <div class="picture-frame">
+              <div class="gaming one">
+                <img src="./icons/gaming-1.jpg" alt="1" data-id="1" />
+              </div>
             </div>
+            <button id="next">▶️</button>
           </div>
-          <button id="next">▶️</button>
+          <div class="navigation-dots">
+            <button class="dot" data-id="1"></button>
+            <button class="dot" data-id="2"></button>
+            <button class="dot" data-id="3"></button>
+            <button class="dot" data-id="4"></button>
+            <button class="dot" data-id="5"></button>
+          </div>
         </div>
         <div class="gaming two">
-          <img src="<%=require('./icons/gaming-2.jpg')%>" alt="2" data-id="2" />
+          <img src="./icons/gaming-2.jpg" alt="2" data-id="2" />
         </div>
         <div class="gaming three">
-          <img src="<%=require('./icons/gaming-3.jpg')%>" alt="3" data-id="3" />
+          <img src="./icons/gaming-3.jpg" alt="3" data-id="3" />
         </div>
         <div class="gaming four">
-          <img src="<%=require('./icons/gaming-4.jpg')%>" alt="4" data-id="4" />
+          <img src="./icons/gaming-4.jpg" alt="4" data-id="4" />
         </div>
         <div class="gaming five">
-          <img src="<%=require('./icons/gaming-5.jpg')%>" alt="5" data-id="5" />
+          <img src="./icons/gaming-5.jpg" alt="5" data-id="5" />
         </div>
       </div>
     </div>
