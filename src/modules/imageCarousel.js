@@ -19,7 +19,6 @@ const next = () => {
   });
 
   imgIndex += 1;
-  console.log(imgIndex);
   pictureFrame.appendChild(imgsDiv[imgIndex]);
 };
 
@@ -36,10 +35,8 @@ const previous = () => {
   });
 
   imgIndex -= 1;
-  console.log(imgIndex);
 
   pictureFrame.appendChild(imgsDiv[imgIndex]);
-  console.log(imgIndex);
 };
 
 // Control images using dot navigation
@@ -69,9 +66,6 @@ const dotsColorController = (dots, imgs) => {
         pictureFrame.contains(img.parentElement) &
         (dot.dataset.id === img.dataset.id)
       ) {
-        console.log(pictureFrame.contains(img.parentElement));
-        console.log(dot.dataset.id);
-        console.log(img.dataset.id);
         dot.style.backgroundColor = 'white';
       }
     });
